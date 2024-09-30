@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Custom Music Player</title>
+</head>
+<body>
+
+ <div class="container">
+    <audio src="" id="music"></audio>
+    <!-- <i class="material-icons back-icon">arrow_back_ios_new</i> -->
+    <p class="music-player-txt">Music Player</p>
+    <div class="img">
+        <img src="Images/image1.jpg" alt="">
+    </div>
+    <div class="title-artist">
+        <h2 class="title">Get Through</h2>
+        <h3 class="artist">Neffex</h3>
+    </div>
+    <div class="timing-progressbar">
+        <span class="current-time">0:00</span>
+        <div class="progress-area">
+            <input type="range" class="progress-bar" value="0" min="0" max="100">
+        </div>
+        <span class="total-time">3:45</span>
+    </div>
+    <i class="material-icons loop-btn">repeat</i>
+    <div class="control-btns">
+        <button class="back-btn">
+            <i class="material-icons">fast_rewind</i>
+        </button>
+        <button class="play-pause play">
+            <i class="material-icons">play_arrow</i>
+        </button>
+        <button class="next-btn">
+            <i class="material-icons">fast_forward</i>
+        </button>
+    </div>
+    <div class="volume-control">
+        <i class="material-icons volume-icon">volume_up</i>
+        <input type="range" min="0" max="1" step="0.01" class="volume-slider" value="0.5">
+    </div>    
+    <i class="material-icons queue">queue_music</i>
+    <div class="queue-box">
+        <div class="queue-top">
+            <i class="material-icons queue-close">close</i>
+            <h4><i class="material-icons">queue_music</i>Music List</h4>
+        </div>   
+        <div class="music-list all-music-list">
+            <!-- <div class="music-list-music">
+                <div class="mlm-img">
+                    <img src="Images/image1.jpg" alt="">
+                </div>
+                <p class="mlm-music-title">Get Through</p>
+                <p class="mlm-music-artist">Neffex</p>
+                <audio src=""></audio>
+                <span class="mlm-music-time">3:45</span>
+            </div>
+            <div class="music-list-music">
+                <div class="mlm-img">
+                    <img src="Images/image2.jpg" alt="">
+                </div>
+                <p class="mlm-music-title">Get Through</p>
+                <p class="mlm-music-artist">Neffex</p>
+                <audio src=""></audio>
+                <span class="mlm-music-time">3:45</span>
+            </div>
+            <div class="music-list-music">
+                <div class="mlm-img">
+                    <img src="Images/image3.jpg" alt="">
+                </div>
+                <p class="mlm-music-title">Get Through</p>
+                <p class="mlm-music-artist">Neffex</p>
+                <audio src=""></audio>
+                <span class="mlm-music-time">3:45</span> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script file -->
+<script src="script.js"></script>
+</body>
+</html>
